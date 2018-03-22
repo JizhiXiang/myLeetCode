@@ -5,7 +5,7 @@
 
 class Solution{
 public:
-	int WiggleMaxLength(std::vector<int>& nums){		
+	int wiggleMaxLength(std::vector<int>& nums){		
 		if (nums.size()<2)
 		{
 			return nums.size();
@@ -63,7 +63,7 @@ int main(){
 	{
 		nums.push_back(nums_a[i]);
 	}		
-	int result = solve.WiggleMaxLength(nums);
+	int result = solve.wiggleMaxLength(nums);
 	printf("½á¹ûÎª%d\n",result);
 	system("pause");
 	return 0;
